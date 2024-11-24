@@ -1,0 +1,5 @@
+<section id="about">
+    <h2>关于我</h2>
+    <img src="images/your-photo.jpg" alt="我的照片" style="width:200px;height:auto;border-radius:50%;">
+    <p>你好！我是[您的名字]，一名热衷于[您的专业领域]的专业人士。</p>
+</section>

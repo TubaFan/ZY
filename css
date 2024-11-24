@@ -1,0 +1,71 @@
+/* 基本样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 设置字体和背景颜色 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* 部分间距 */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section:nth-of-type(even) {
+    background-color: #e9e9e9;
+}
+
+/* 作品集项目样式 */
+.project {
+    margin: 20px 0;
+}
+
+/* 博客文章样式 */
+article {
+    margin: 20px 0;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
